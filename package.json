@@ -14,7 +14,8 @@
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mariadb": "^3.5.4"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
@@ -24,4 +25,3 @@
     "typescript": "^7.0.2"
   }
 }
-

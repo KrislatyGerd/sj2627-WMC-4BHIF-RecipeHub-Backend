@@ -15,7 +15,7 @@ const pool = mariadb.createPool({
     user: "root",
     password: "example",
     database: "recipes_db", // Datenbankname 
-    port: 3308, // Standardport für MariaDB ist 3306, hier 3308
+    port: 3307, // Standardport für MariaDB ist 3306, hier 3308
 });
 
 app.use(cors());
@@ -31,6 +31,7 @@ app.get("/api/hello", (req, res) => {
         message: "Hallo von Express + TypeScript!"
     });
 });
+
 // GET-Endpoint für /api/recipes
 app.get("/api/recipes", async (req, res) => {
 
